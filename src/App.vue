@@ -17,18 +17,16 @@
         </li>
       </ul>
     </div>
-  </div>
-     <!-- Mobile menu -->
-      <div class="mobile-menu" v-if="mobileVisible">
-        <ul @click="showMobileMenu">
-          <li>
-            <router-link to="/"> HOME </router-link>
-          </li>
-          <li><router-link to="/about"> ABOUT </router-link></li>
-          <li><router-link to="/contact"> CONTACT US </router-link></li>
-          <li><router-link to="/bookonline"> BOOK ONLINE</router-link></li>
-        </ul>
-      </div>
+    <!-- Mobile menu -->
+    <div class="mobile-menu" v-if="mobileVisible">
+      <ul @click="showMobileMenu">
+        <li>
+          <router-link to="/"> HOME </router-link>
+        </li>
+        <li><router-link to="/about"> ABOUT </router-link></li>
+        <li><router-link to="/contact"> CONTACT US </router-link></li>
+        <li><router-link to="/bookonline"> BOOK ONLINE</router-link></li>
+      </ul>
     </div>
     <router-view />
   </div>
