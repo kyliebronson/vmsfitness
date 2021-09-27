@@ -74,7 +74,7 @@ export default {
   padding-inline-start: 0;
   vertical-align: middle;
   min-height: 80px;
-  border-bottom: 1px solid rgba(189, 23, 22, 0.6);
+  border-bottom: 1px solid rgb(255, 98, 31, 0.6);
 }
 .header li {
   padding-left: 30px;
