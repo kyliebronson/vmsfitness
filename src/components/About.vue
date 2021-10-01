@@ -23,4 +23,9 @@ export default {
 </script>
 
 <style scoped>
+p {
+  font-weight: bold;
+  font-size: 40px;
+  padding: 10px;
+}
 </style>
