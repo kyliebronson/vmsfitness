@@ -28,4 +28,10 @@ p {
   font-size: 40px;
   padding: 10px;
 }
+
+p1 {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
 </style>
