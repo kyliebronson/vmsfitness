@@ -1,14 +1,25 @@
 <template>
   <div>
-    <div class="hero">
-      <h2>
-        <span>Set</span> <span>Goals</span> <span>Rise</span> <span>Above</span>
-      </h2>
-      <img src="../assets/fitpic4.jpg" />
+    <div>
+      <div class="hero">
+        <h2>
+          <span>Set</span> <span>Goals</span> <span>Rise</span>
+          <span>Above</span>
+        </h2>
+        <img src="../assets/fitpic4.jpg" />
+      </div>
+      <div class="hero2-top">
+        <p class="border"></p>
+      </div>
+      <img src="../assets/insta.png" alt="" />
+      <img src="../assets/fb2.png" alt="" />
     </div>
-    <div class="hero2-top">
-      <p class="border"></p>
+    <h1>Services</h1>
+    <div class="service-offered">
+      <div><h2>Personal Training</h2></div>
+      <div><h2>Meal Planning</h2></div>
     </div>
+    <div class="information-columns"></div>
   </div>
 </template>
 
@@ -63,5 +74,9 @@ export default {};
 .hero span {
   padding: 20px;
   letter-spacing: 10px;
+}
+img {
+  height: 100px;
+  padding: 20px;
 }
 </style>
