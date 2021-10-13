@@ -17,7 +17,7 @@
     <h1>Services</h1>
     <div class="service-offered">
       <div>
-        <h2>Personal Training</h2>
+        <h3>Personal Training</h3>
         <p>
           My personal training programs create a unique way to help each person
           achieve their specific goals. I listen to your goals, needs, and
@@ -25,7 +25,7 @@
         </p>
       </div>
       <div>
-        <h2>Meal Planning</h2>
+        <h3>Meal Planning</h3>
         <p>
           Diet is the most important factor when it comes to getting results
           from training. Calorie intake, dieting, and protien consumtion is all
@@ -100,8 +100,7 @@ img {
   justify-content: center;
   padding-top: 50px;
 }
-h2 {
-  padding-right: 40px;
-  border: 1px solid;
+h3 {
+  border: solid 2px;
 }
 </style>
