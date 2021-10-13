@@ -45,9 +45,11 @@ p2 {
 }
 p3 {
   font-size: 35px;
+  font-weight: 400;
 }
 p4 {
   font-size: 26px;
+  line-height: 30px;
 }
 img {
   max-width: 250px;
