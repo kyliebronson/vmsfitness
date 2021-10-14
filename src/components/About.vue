@@ -1,9 +1,13 @@
 <template>
   <div>
-    <p>Meet Victor Santiago</p>
-    <div class="img"><img src="../assets/fitpic.jpg" alt="" /></div>
+    <div class="hero">
+      <div><p>Meet Victor Santiago</p></div>
+      <div class="img">
+        <img src="../assets/fitpic.jpg" alt="" />
+      </div>
+    </div>
 
-    <div><p1> Founder and Peronsal Trainer </p1></div>
+    <div><p1> Founder and Personal Trainer </p1></div>
     <div>
       <p2>
         I have helped helped hundreds of people achieve their fitness goals and
@@ -53,5 +57,12 @@ p4 {
 }
 img {
   max-width: 250px;
+  margin-left: 105px;
+  padding: 15px;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
